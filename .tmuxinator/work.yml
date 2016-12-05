@@ -1,0 +1,58 @@
+# ~/.tmuxinator/work.yml
+name: work
+root: ~/
+
+# Optional tmux socket
+# socket_name: foo
+
+# Runs before everything. Use it to start daemons etc.
+# pre: sudo /etc/rc.d/mysqld start
+
+# Runs in each window and pane before window/pane specific commands. Useful for setting up interpreter versions.
+# pre_window: rbenv shell 2.0.0-p247
+
+# Pass command line options to tmux. Useful for specifying a different tmux.conf.
+# tmux_options: -f ~/.tmux.mac.conf
+
+# Change the command to call tmux.  This can be used by derivatives/wrappers like byobu.
+# tmux_command: byobu
+
+# Specifies (by name or index) which window will be selected on project startup. If not set, the first window is used.
+# startup_window: logs
+
+# Controls whether the tmux session should be attached to automatically. Defaults to true.
+# attach: false
+
+# Runs after everything. Use it to attach to tmux with custom options etc.
+# post: tmux -CC attach -t work
+
+windows:
+  - editor:
+      layout: even-horizontal
+      panes:
+        -
+        -
+  - ssh:
+      layout: even-horizontal
+      panes:
+        -
+        -
+  - docker:
+      layout: even-horizontal
+      panes:
+        - redis:
+            - docker stop redis
+            - docker start redis
+        - mysql:
+            - docker stop mysql
+            - docker start mysql
+  - emacs:
+      - em
+  - notes:
+      layout: 5281,231x59,0,0[231x29,0,0,62,231x29,0,30{115x29,0,30,58,115x29,116,30,63}]
+      panes:
+        -
+        - note:
+           - cd ce-workspace/notes
+           - hexo server
+        -
