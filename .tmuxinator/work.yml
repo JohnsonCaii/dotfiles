@@ -46,6 +46,9 @@ windows:
         - mysql:
             - docker stop mysql
             - docker start mysql
+        - rabbitmq:
+            - docker stop rabbitmq
+            - docker start rabbitmq
   - emacs:
       - em
   - notes:
