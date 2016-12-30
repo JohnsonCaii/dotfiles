@@ -4,4 +4,8 @@
 [push]
 	default = current
 [core]
-	editor = emacs
+    editor = emacs
+[color "branch"]
+	current = blue
+	local = normal
+        remote = cyan bold
