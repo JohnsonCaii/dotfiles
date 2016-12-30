@@ -1,0 +1,7 @@
+[user]
+	name = Johnson Cai
+	email = johnson.cai@btcc.com
+[push]
+	default = current
+[core]
+	editor = emacs
