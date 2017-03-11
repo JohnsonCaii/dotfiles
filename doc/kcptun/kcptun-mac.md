@@ -11,4 +11,6 @@ tar -xvf kcptun-darwin-amd64-20170308.tar.gz
 ```
 
 ## Launch kcptun
+``` shell
 sudo ./client_darwin_amd64 -l ":port" -mode server-mode -r "host:port" --crypt crypt_method
+```
