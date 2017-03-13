@@ -1,0 +1,453 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/zhpooer/ce-workspace/workspace/Nodejs/learn-js/websocket/" . "src/")
+ ("/Users/zhpooer/ce-workspace/workspace/Nodejs/learn-js/" . "websocket/")
+ ("/Users/zhpooer/ce-workspace/workspace/Java/java-snippet/google-authentication/src/test/java/com/" . "authentication/")
+ ("/Users/zhpooer/ce-workspace/workspace/Java/java-snippet/google-authentication/src/test/java/" . "com/")
+ ("/Users/zhpooer/ce-workspace/workspace/Java/java-snippet/google-authentication/src/test/" . "java/")
+ ("/Users/zhpooer/ce-workspace/workspace/Java/java-snippet/google-authentication/src/main/java/com/" . "authentication/")
+ ("/Users/zhpooer/ce-workspace/workspace/Java/java-snippet/google-authentication/src/main/java/" . "com/")
+ ("/Users/zhpooer/ce-workspace/workspace/Java/java-snippet/google-authentication/src/main/" . "java/")
+ ("/Users/zhpooer/ce-workspace/workspace/Java/java-snippet/google-authentication/src/" . "test/")
+ ("/Users/zhpooer/ce-workspace/workspace/Java/java-snippet/google-authentication/" . "src/")
+ ("/Users/zhpooer/ce-workspace/workspace/Java/java-snippet/" . "google-authentication/")
+ ("/Users/zhpooer/ce-workspace/workspace/Python/django-demo/mysite/polls/static/polls/" . "images/")
+ ("/Users/zhpooer/ce-workspace/workspace/Python/django-demo/mysite/polls/static/" . "polls/")
+ ("/Users/zhpooer/ce-workspace/workspace/Python/django-demo/mysite/polls/templates/" . "polls/")
+ ("/Users/zhpooer/ce-workspace/workspace/Python/django-demo/mysite/polls/" . "static/")
+ ("/Users/zhpooer/ce-workspace/workspace/Python/django-demo/mysite/" . "polls/")
+ ("/Users/zhpooer/ce-workspace/workspace/Python/django-demo/" . "mysite/")
+ ("/Users/zhpooer/ce-workspace/workspace/Python/" . "django-demo/")
+ ("/Users/zhpooer/ce-workspace/workspace/Nodejs/" . "learn-js/")
+ ("/Users/zhpooer/ce-workspace/workspace/Java/" . "java-snippet/")
+ ("/Users/zhpooer/Desktop/springboot/src/main/" . "java/")
+ ("/Users/zhpooer/Desktop/springboot/src/" . "main/")
+ ("/Users/zhpooer/Desktop/springboot/" . "src/")
+ ("/Users/zhpooer/ce-workspace/workspace/personal-repository/spring-boot-doc/maven-test/src/main/" . "java/")
+ ("/Users/zhpooer/ce-workspace/workspace/personal-repository/spring-boot-doc/maven-test/src/" . "main/")
+ ("/Users/zhpooer/ce-workspace/workspace/personal-repository/spring-boot-doc/maven-test/" . "src/")
+ ("/Users/zhpooer/ce-workspace/workspace/personal-repository/spring-boot/src/main/" . "java/")
+ ("/Users/zhpooer/ce-workspace/workspace/personal-repository/spring-boot/src/" . "main/")
+ ("/Users/zhpooer/ce-workspace/workspace/personal-repository/spring-boot/" . "src/")
+ ("/Users/zhpooer/ce-workspace/workspace/personal-repository/spring-boot-doc/" . "maven-test/")
+ ("/Users/zhpooer/ce-workspace/workspace/personal-repository/" . "spring-boot/")
+ ("/Users/zhpooer/ce-workspace/workspace/zhaimi/documents/" . "api接口文档/")
+ ("/Users/zhpooer/ce-workspace/workspace/zhaimi/" . "documents/")
+ ("/Users/" . "zhpooer/")
+ ("/Users/zhpooer/ce-workspace/workspace/documents/" . "api接口文档/")
+ ("/Users/zhpooer/ce-workspace/workspace/" . "Go/")
+ ("/Users/zhpooer/ce-workspace/notes/themes/next/source/css/" . "_variables/")
+ ("/Users/zhpooer/ce-workspace/notes/themes/next/source/" . "css/")
+ ("/Users/zhpooer/ce-workspace/notes/themes/next/" . "source/")
+ ("/Users/zhpooer/ce-workspace/notes/themes/" . "next/")
+ ("/Users/zhpooer/ce-workspace/notes/source/" . "_posts/")
+ ("/Users/zhpooer/.oh-my-zsh/plugins/" . "git/")
+ ("/Users/zhpooer/.oh-my-zsh/" . "plugins/")
+ ("/Users/zhpooer/ce-workspace/workspace/backend/src/main/java/com/zhaimi/customer/member/" . "web/")
+ ("/Users/zhpooer/ce-workspace/workspace/backend/src/main/java/com/zhaimi/customer/" . "member/")
+ ("/Users/zhpooer/ce-workspace/workspace/backend/src/main/java/com/zhaimi/" . "customer/")
+ ("/Users/zhpooer/ce-workspace/workspace/backend/src/main/java/com/" . "zhaimi/")
+ ("/Users/zhpooer/ce-workspace/workspace/backend/src/main/java/" . "com/")
+ ("/Users/zhpooer/ce-workspace/workspace/backend/src/main/" . "java/")
+ ("/Users/zhpooer/ce-workspace/workspace/backend/src/" . "main/")
+ ("/Users/zhpooer/ce-workspace/workspace/backend/" . "src/")
+ ("/Users/zhpooer/ce-workspace/" . "notes/")
+ ("/Users/zhpooer/ce-workspace/notes/" . "source/")
+ ("/usr/local/Cellar/maven/3.3.3/libexec/" . "conf/")
+ ("/usr/local/Cellar/maven/3.3.3/" . "libexec/")
+ ("/usr/local/Cellar/maven/" . "3.3.3/")
+ ("/usr/local/Cellar/" . "maven/")
+ ("/Users/zhpooer/workspace/thoughtworks/static-pages/src/htdocs/" . "partial/")
+ ("/Users/zhpooer/workspace/thoughtworks/static-pages/" . "gulp/")
+ ("/Users/zhpooer/workspace/thoughtworks/udriving-web/tasks/" . "libs/")
+ ("/Users/zhpooer/workspace/thoughtworks/static-pages/src/app/" . "controllers/")
+ ("/Users/zhpooer/workspace/thoughtworks/udriving-web/" . "tasks/")
+ ("/Users/zhpooer/workspace/thoughtworks/" . "udriving-server/")
+ ("/Users/zhpooer/.sbt/0.13/plugins/project/" . "target/")
+ ("/Users/zhpooer/.sbt/0.13/plugins/" . "project/")
+ ("/Users/zhpooer/workspace/spike/hello_scala/src/test/scala/me/" . "zhpooer/")
+ ("/Users/zhpooer/workspace/spike/hello_scala/src/test/scala/" . "me/")
+ ("/Users/zhpooer/workspace/front/all-stack-kit/node_modules/lodash/" . "dist/")
+ ("/Users/zhpooer/workspace/front/all-stack-kit/node_modules/" . "lodash/")
+ ("/Users/zhpooer/workspace/front/all-stack-kit/client/" . "htdocs/")
+ ("/Users/zhpooer/workspace/front/all-stack-kit/" . "server/")
+ ("/Users/zhpooer/workspace/front/all-stack-kit/server/" . "models/")
+ ("/Users/zhpooer/Desktop/maui/server/api/" . "user/")
+ ("/Users/zhpooer/Desktop/maui/server/" . "rss/")
+ ("/Users/zhpooer/Desktop/maui/" . "server/")
+ ("/Users/zhpooer/Desktop/" . "springboot/")
+ ("/Users/zhpooer/workspace/spike/hello_scala/src/test/" . "scala/")
+ ("/usr/local/" . "Cellar/")
+ ("/usr/" . "local/")
+ ("/Users/zhpooer/workspace/spike/hello_scala/" . "src/")
+ ("/Users/zhpooer/workspace/spike/hello_scala/src/main/scala/me/" . "zhpooer/")
+ ("/Users/zhpooer/workspace/spike/hello_scala/src/main/scala/" . "me/")
+ ("/Users/zhpooer/workspace/spike/hello_scala/src/main/" . "scala/")
+ ("/Users/zhpooer/workspace/spike/hello_scala/src/" . "test/")
+ ("/Users/zhpooer/.sbt/0.13/" . "plugins/")
+ ("/Users/zhpooer/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/" . "0.13.8/")
+ ("/Users/zhpooer/.sbt/boot/scala-2.10.4/org.scala-sbt/" . "sbt/")
+ ("/Users/zhpooer/.sbt/boot/scala-2.10.4/" . "org.scala-sbt/")
+ ("/Users/zhpooer/.sbt/boot/" . "scala-2.10.4/")
+ ("/Users/zhpooer/.sbt/" . "boot/")
+ ("/Users/zhpooer/workspace/spike/hello-clj/src/" . "route/")
+ ("/Users/zhpooer/workspace/spike/hello-clj/" . "src/")
+ ("/Users/zhpooer/workspace/front/liulishuo-exam/build/" . "css/")
+ ("/Users/zhpooer/workspace/front/liulishuo-exam/bower_components/" . "zepto/")
+ ("/Users/zhpooer/workspace/front/liulishuo-exam/src/sass/" . "partial/")
+ ("/Users/zhpooer/workspace/front/liulishuo-exam/src/htdocs/" . "partial/")
+ ("/Users/zhpooer/workspace/front/liulishuo-exam/src/" . "app/")
+ ("/Users/zhpooer/workspace/front/liulishuo-exam/" . "src/")
+ ("/Users/zhpooer/workspace/backend/guestbook/src/guestbook/" . "routes/")
+ ("/Users/zhpooer/workspace/backend/guestbook/src/" . "guestbook/")
+ ("/Users/zhpooer/workspace/backend/guestbook/resources/public/" . "img/")
+ ("/Users/zhpooer/workspace/backend/guestbook/resources/" . "public/")
+ ("/Users/zhpooer/workspace/backend/guestbook/" . "src/")
+ ("/Users/zhpooer/workspace/backend/" . "guestbook/")
+ ("/Users/zhpooer/workspace/front/client-server/client/" . "app/")
+ ("/Users/zhpooer/workspace/blog/source/" . "_posts/")
+ ("/Users/zhpooer/workspace/blog/" . "source/")
+ ("/Users/zhpooer/workspace/demo/coodict.com/app/" . "views/")
+ ("/Users/zhpooer/workspace/demo/coodict.com/" . "app/")
+ ("/Users/zhpooer/workspace/front/client-server/src/htdocs/" . "partial/")
+ ("/Users/zhpooer/workspace/front/client-server/bower_components/bootstrap/dist/" . "fonts/")
+ ("/Users/zhpooer/workspace/front/client-server/bower_components/bootstrap/" . "dist/")
+ ("/Users/zhpooer/workspace/front/client-server/bower_components/react-bootstrap/" . "lib/")
+ ("/Users/zhpooer/workspace/demo/todomvc/examples/react-backbone/" . "js/")
+ ("/Users/zhpooer/workspace/demo/react-news/src/js/" . "actions/")
+ ("/Users/zhpooer/workspace/demo/react-news/src/" . "js/")
+ ("/Users/zhpooer/workspace/demo/react-news/" . "src/")
+ ("/Users/zhpooer/workspace/demo/react-flux-backbone/src/routes/base/" . "select2/")
+ ("/Users/zhpooer/workspace/demo/react-flux-backbone/src/routes/" . "base/")
+ ("/Users/zhpooer/workspace/demo/react-flux-backbone/src/" . "routes/")
+ ("/Users/zhpooer/workspace/demo/react-flux-backbone/api/" . "contacts/")
+ ("/Users/zhpooer/workspace/demo/react-flux-backbone/" . "src/")
+ ("/Users/zhpooer/workspace/demo/refluxjs-todo/" . "js/")
+ ("/Users/zhpooer/workspace/front/client-server/src/" . "app/")
+ ("/Users/zhpooer/workspace/front/client-server/bower_components/" . "bootstrap/")
+ ("/Users/zhpooer/workspace/front/client-server/" . "gulp/")
+ ("/Users/zhpooer/workspace/front/client-server/src/app/" . "actions/")
+ ("/Users/zhpooer/workspace/front/static-make/src/app/" . "pages/")
+ ("/Users/zhpooer/workspace/demo/todomvc/examples/react/" . "js/")
+ ("/Users/zhpooer/workspace/demo/todomvc/examples/" . "react-backbone/")
+ ("/Users/zhpooer/workspace/demo/todomvc/" . "examples/")
+ ("/Users/zhpooer/workspace/demo/bleeding-edge-sample-app/node_modules/react-router/modules/" . "stores/")
+ ("/Users/zhpooer/workspace/demo/bleeding-edge-sample-app/node_modules/react-router/" . "modules/")
+ ("/Users/zhpooer/workspace/demo/bleeding-edge-sample-app/node_modules/" . "react-router/")
+ ("/Users/zhpooer/workspace/demo/bleeding-edge-sample-app/client/app/components/" . "answers/")
+ ("/Users/zhpooer/workspace/demo/bleeding-edge-sample-app/client/app/" . "flux/")
+ ("/Users/zhpooer/workspace/demo/bleeding-edge-sample-app/client/" . "app/")
+ ("/Users/zhpooer/workspace/demo/bleeding-edge-sample-app/server/" . "render/")
+ ("/Users/zhpooer/workspace/demo/bleeding-edge-sample-app/" . "server/")
+ ("/Users/zhpooer/workspace/demo/react-starterkit/app/scripts/" . "pages/")
+ ("/Users/zhpooer/workspace/demo/react-starterkit/app/" . "scripts/")
+ ("/Users/zhpooer/workspace/demo/react-starterkit/" . "app/")
+ ("/Users/zhpooer/workspace/demo/react-express-template/" . "src/")
+ ("/Users/zhpooer/workspace/demo/" . "react-news/")
+ ("/Users/zhpooer/workspace/spike/nodeclub/" . "api/")
+ ("/Users/zhpooer/workspace/spike/practicalnode/ch5/blog-express/views/" . "includes/")
+ ("/Users/zhpooer/workspace/front/node-blog/views/" . "includes/")
+ ("/Users/zhpooer/workspace/front/node-blog/public/" . "js/")
+ ("/Users/zhpooer/workspace/spike/practicalnode/ch3/" . "blog-express/")
+ ("/Users/zhpooer/workspace/spike/practicalnode/ch5/blog-express/public/" . "js/")
+ ("/Users/zhpooer/workspace/spike/practicalnode/ch5/blog-express/" . "tests/")
+ ("/Users/zhpooer/workspace/spike/practicalnode/ch5/" . "blog-express/")
+ ("/Users/zhpooer/workspace/spike/practicalnode/ch4/consolidate/" . "views/")
+ ("/Users/zhpooer/workspace/spike/practicalnode/ch4/" . "consolidate/")
+ ("/Users/zhpooer/workspace/spike/practicalnode/ch2/hello-world/" . "views/")
+ ("/Users/zhpooer/workspace/spike/practicalnode/ch2/" . "hello-world/")
+ ("/Users/zhpooer/workspace/spike/practicalnode/" . "ch5/")
+ ("/Users/zhpooer/.emacs.d/personal/snippets/" . "js2-mode/")
+ ("/Users/zhpooer/.emacs.d/personal/" . "snippets/")
+ ("/Users/zhpooer/workspace/front/node-blog/" . "views/")
+ ("/Users/zhpooer/workspace/spike/express-styl/" . "bin/")
+ ("/Users/zhpooer/workspace/spike/helloworld_clojure/src/" . "helloworld/")
+ ("/Users/zhpooer/workspace/spike/helloworld_clojure/" . "src/")
+ ("/Users/zhpooer/workspace/spike/" . "hello_scala/")
+ ("/Users/zhpooer/workspace/front/static-make/src/sass/" . "partial/")
+ ("/Users/zhpooer/workspace/front/static-make/src/" . "app/")
+ ("/Users/zhpooer/workspace/front/static-make/" . "src/")
+ ("/Users/zhpooer/workspace/front/framework7-reactjs/src/" . "htdocs/")
+ ("/Users/zhpooer/workspace/front/" . "liulishuo-exam/")
+ ("/Users/zhpooer/workspace/" . "blog/")
+ ("/Users/zhpooer/.vimperator/info/" . "default/")
+ ("/Users/zhpooer/.vimperator/" . "info/")
+ ("/Users/zhpooer/.emacs.d/" . "savefile/")
+ ("/Users/zhpooer/" . "ce-workspace/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/zhpooer/ce-workspace/notes/source/_posts/"
+ "/Users/zhpooer/ce-workspace/workspace/Go/"
+ "/Users/zhpooer/.emacs.d/"
+ "/Users/zhpooer/ce-workspace/workspace/Nodejs/learn-js/websocket/src/"
+ "/Users/zhpooer/ce-workspace/workspace/Nodejs/learn-js/"
+ "/Users/zhpooer/ce-workspace/workspace/Java/java-snippet/google-authentication/src/test/java/com/authentication/"
+ "/Users/zhpooer/"
+ "/Users/zhpooer/ce-workspace/workspace/Python/django-demo/mysite/polls/static/polls/"
+ "/Users/zhpooer/ce-workspace/workspace/Python/django-demo/mysite/polls/templates/polls/"
+ "/Users/zhpooer/ce-workspace/workspace/Python/django-demo/mysite/polls/"
+ "~/ce-workspace/workspace/Nodejs/learn-js/"
+ "/Users/zhpooer/ce-workspace/workspace/Java/phoenix-policy-store/"
+ "/Users/zhpooer/.tmuxinator/"
+ "/Users/zhpooer/.ssh/"
+ "/test-thirdapi:"
+ "/Users/zhpooer/ce-workspace/workspace/Java/original-backend/"
+ "/Users/zhpooer/.m2/"
+ "/Users/zhpooer/ce-workspace/workspace/Java/ce-spring-boot/"
+ "/Users/zhpooer/ce-workspace/workspace/Shell/"
+ "/Users/zhpooer/Desktop/springboot/"
+ "/Users/zhpooer/Desktop/"
+ "/Users/zhpooer/Desktop/springboot/src/main/java/"
+ "/Users/zhpooer/Desktop/mydockerbuild/"
+ "/Users/zhpooer/ce-workspace/notes/"
+ "/Users/zhpooer/ce-workspace/notes/source/about/"
+ "/"
+ "/Users/zhpooer/ce-workspace/workspace/personal-repository/spring-boot/src/main/java/"
+ "/Users/zhpooer/ce-workspace/workspace/personal-repository/spring-boot-doc/maven-test/src/main/java/"
+ "/Users/zhpooer/ce-workspace/workspace/personal-repository/spring-boot-doc/maven-test/"
+ "/Users/zhpooer/ce-workspace/workspace/personal-repository/spring-boot-doc/"
+ "/Users/zhpooer/ce-workspace/workspace/zhaimi/documents/api接口文档/"
+ "/Users/zhpooer/ce-workspace/workspace/ce-build-project/"
+ "/Users/zhpooer/ce-workspace/workspace/documents/api接口文档/"
+ "/Users/zhpooer/ce-workspace/workspace/customer-backend/"
+ "/Users/zhpooer/ce-workspace/deploy-shell/"
+ "/Users/zhpooer/ce-workspace/notes/themes/next/"
+ "/Users/zhpooer/ce-workspace/notes/themes/next/source/css/_variables/"
+ "/Users/zhpooer/ce-workspace/notes/source/tags/"
+ "/Users/zhpooer/ce-workspace/notes/.git/"
+ "/Users/zhpooer/.oh-my-zsh/plugins/git/"
+ "/Users/zhpooer/ce-workspace/workspace/backend/src/main/java/com/zhaimi/customer/member/web/"
+ "/usr/local/Cellar/maven/3.3.3/libexec/conf/"
+ "/Users/zhpooer/workspace/blog/source/_posts/"
+ "/Users/zhpooer/workspace/thoughtworks/static-pages/gulp/tasks/"
+ "/Users/zhpooer/workspace/thoughtworks/udriving-web/config/"
+ "/Users/zhpooer/workspace/thoughtworks/udriving-web/tasks/libs/"
+ "/Users/zhpooer/workspace/thoughtworks/static-pages/src/app/"
+ "/Users/zhpooer/workspace/thoughtworks/static-pages/"
+ "/Users/zhpooer/workspace/thoughtworks/udriving-web/tasks/config/"
+ "/Users/zhpooer/workspace/thoughtworks/udriving-web/tasks/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "JVM运行机制.md"
+ "类装载器.md"
+ "GC参数.md"
+ "GC算法与种类.md"
+ "常用JVM配置参数.md"
+ "JVM初识.md"
+ "hello.go"
+ "base-conf.el"
+ "app.js"
+ "module.js"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/zhpooer/ce-workspace/notes/source/_posts/" (22681 52334 0 0) "类装载器.md" "有趣的问题.md" "开发框架遐想.md" "并发编程-第二部分-结构化并发应用程序.md" "常用JVM配置参数.md" "函数式编程的那些概念.md" "七周七语言-Scala.md" "《重构》读书笔记.md" "《并发编程-第-5-章-基础构建模块》读书笔记.md" "《Java并发编程实战1-4章基础知识》读书笔记.md" "《git学习记录》.md" "UML类图.md" "Spring-Event-Driven-Model.md" "SimCity-Strategy-Guide.md" "scala-tutorial.md" "Mongo地理位置查询-md.md" "JVM运行机制.md" "JVM初识.md" "Java8Lambda.md" "Java-异常.md" "ideaShortcut.md" "GC算法与种类.md" "GC参数.md" "Docker-Command.md" "Dbunit使用.md" "10-ways-to-have-a-better-conversation.md" ".DS_Store" "../" "./")
+
+ ("/Users/zhpooer/" (22680 31441 0 0) "workspace/" "spf13-vim.sh" "shell/" "Public/" "Pictures/" "Music/" "Movies/" "Library/" "jenkins/" "gitlab/" "Downloads/" "Documents/" "Desktop/" "ce-workspace/" "bin/" "Applications/" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zlogin" ".zcompdump-Poe’s MacBook Pro-5.1.1" ".zcompdump-Poe’s MacBook Pro-5.0.8" ".zcompdump-Poe’s MacBook Pro-5.0.7" ".zcompdump-Poe’s MacBook Pro-5.0.5" ".zcompdump-MacBookPro-5.0.8" ".zcompdump-caie-5.1.1" ".zcompdump-caie-5.0.8" ".zcompdump-caie's MacBookPro-5.0.8" ".zcompdump-caie MacBookPro-5.2" ".zcompdump-caie MacBookPro-5.0.8" ".zcompdump-caie MacBookPro (2)-5.2" ".zcompdump-caie MacBookPro (2)-5.0.8" ".vimviews/" ".vimundo/" ".vimswap/" ".vimrc.local" ".vimrc.bundles" ".vimrc.before" ".vimrc" ".vimperatorrc" ".vimperator/" ".viminfo" ".vimbackup/" ".vim/" ".v8flags.3.28.71.19.zhpooer.json" ".travis/" ".Trash/" ".todo" ".tmuxinator/" ".tmux.conf" ".subversion/" ".ssh/" ".spf13-vim-3/" ".sogouinput/" ".ShadowsocksX/" ".sh_history" ".scalaconsole/" ".scala_history" ".sbt/" ".rvm/" ".rnd" ".repox/" ".rediscli_history" ".psql_history" ".proxychains/" ".profile" ".oracle_jre_usage/" ".oh-my-zsh/" ".npm/" ".node-gyp/" ".mysql_history" ".mongorc.js" ".mkshrc" ".m2/" ".local/" ".lobo/" ".lesshst" ".lein/" ".jprofiler9/" ".ivy2/" ".IntelliJIdea14/" ".ideaLibSources/" ".idea-build/" ".htoprc" ".hgignore_global" ".h2.server.properties" ".gradle/" ".gitconfig" ".ghci" ".ghc/" ".gemrc" ".gem/" ".erc/" ".emacs.d/" ".electron/" ".dubbo/" ".DS_Store" ".docker/" ".dbshell" ".conscript/" ".config/" ".cnpmrc" ".cnpm/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_profile" ".bash_history" ".bash_aliases" ".babel.json" ".android/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Go/" (22680 31440 0 0) "hello.go" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/" (22680 31229 0 0) "Shell/" "Scala/" "Python/" "PHP/" "Nodejs/" "mac-conf/" "Java/" "Groovy/" "Go/" ".idea/" ".DS_Store" "../" "./")
+
+ ("/Users/zhpooer/.emacs.d/" (22662 4714 0 0) "vendor/" "var/" "utils/" "tramp" "themes/" "snippets/" "savefile/" "sample/" "README.md" "projectile-bookmarks.eld" "project-conf.el" "poe-el/" "plugins/" "personal/" "modules/" "manual-conf.el" "init.el" "ensime/" "elpa/" "core/" "CONTRIBUTING.md" "base-conf.el" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/zhpooer/Applications/" (22660 46092 0 0) "有道词典.app" "Today Scripts.app" "TextMate.app" "TextExpander.app" "Sublime Text 2.app" "Slack.app" "Skype.app" "SelfControl.app" "Scala IDE.app" "Paintbrush.app" "MacVim.app" "MacDown.app" "LimeChat.app" "Jumpcut.app" "iTerm.app/" "Google Chrome.app" "GitUp.app" "GitHub Desktop.app/" "Gas Mask.app" "Foxmail.app" "Flux.app/" "Firefox.app" "Evernote.app" "Eclipse.app" "Dash.app/" "Chrome Apps.localized/" "CheatSheet.app" "AppCleaner.app" "Anki.app" "Android Studio.app" "Alfred Preferences.app" "Alfred 2.app" "1Password 5.app" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Nodejs/learn-js/websocket/src/" (22662 2811 0 0) "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Nodejs/learn-js/websocket/" (22662 2811 0 0) "src/" "package.json" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Nodejs/learn-js/" (22662 2788 0 0) "websocket/" "object.js" "map-set.js" "hello-world.js" "function.js" "arrays.js" ".git/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Java/java-snippet/google-authentication/" (22660 49501 0 0) "src/" "README.md" "pom.xml" "images/" ".DS_Store" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Java/java-snippet/google-authentication/src/test/java/com/authentication/" (22660 45586 0 0) "TOTPCodeTest.java" "GenerateSecretKeyTest.java" "AuthenticationBarCodeTest.java" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Java/java-snippet/google-authentication/src/test/java/com/" (22660 45586 0 0) "authentication/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Java/java-snippet/google-authentication/src/test/java/" (22660 45586 0 0) "com/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Java/java-snippet/google-authentication/src/test/" (22660 45586 0 0) "java/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Java/java-snippet/google-authentication/src/main/java/com/authentication/" (22660 45586 0 0) "TOTPCode.java" "TOTP.java" "GenerateSecretKey.java" "AuthenticationBarCode.java" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Java/java-snippet/google-authentication/src/main/java/com/" (22660 45586 0 0) "authentication/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Java/java-snippet/google-authentication/src/main/java/" (22660 45586 0 0) "com/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Java/java-snippet/google-authentication/src/main/" (22660 45586 0 0) "java/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Java/java-snippet/google-authentication/src/" (22660 45586 0 0) "test/" "main/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Java/java-snippet/" (22660 45586 0 0) "spring-boot-integration/" "RXJava/" "README.md" "pom.xml" "ninety-nine-problems/" "java-snippet.iml" "google-authentication/" "design-pattern/" ".travis.yml" ".idea/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Java/" (22646 10136 0 0) "test-java-command/" "template/" "sparrow/" "practice/" "phoenix-trade/" "phoenix-policy-store/" "phoenix-conf-store/" "original-backend/" "mustang/" "magpie/" "java-snippet/" "ce-spring-boot/" "canary/" ".idea/" ".DS_Store" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Python/django-demo/mysite/polls/static/polls/images/" (22654 9096 0 0) "pic.jpg" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Python/django-demo/mysite/polls/static/polls/" (22654 9096 0 0) "style.css" "images/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Python/django-demo/mysite/polls/static/" (22654 8743 0 0) "polls/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Python/django-demo/mysite/polls/templates/polls/" (22654 8849 0 0) "results.html" "index.html" "detail.html" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Python/django-demo/mysite/polls/templates/" (22654 6003 0 0) "polls/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Python/django-demo/mysite/polls/" (22654 8743 0 0) "views.pyc" "views.py" "urls.pyc" "urls.py" "tests.pyc" "tests.py" "templates/" "static/" "models.pyc" "models.py" "migrations/" "apps.pyc" "apps.py" "admin.pyc" "admin.py" "__init__.pyc" "__init__.py" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Python/django-demo/mysite/mysite/" (22654 6003 0 0) "wsgi.py" "urls.py" "settings.py" "__init__.py" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Python/django-demo/mysite/" (22654 6003 0 0) "polls/" "mysite/" "manage.py" "db.sqlite3" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Python/django-demo/" (22654 6245 0 0) "venv/" "README.md" "mysite/" "get-pip.py" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Python/" (22654 6000 0 0) "django-demo/" "../" "./")
+
+ ("~/ce-workspace/workspace/Nodejs/learn-js/" (22644 64405 0 0) "hello-world.js" "arrays.js" ".git/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Nodejs/" (22644 63311 0 0) "node_modules/" "learn-js/" "hello.js" "dump.rdb" "app_express.js" "app.js" ".DS_Store" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/" (22623 58208 0 0) "workspace/" "notes/" "dev/" ".DS_Store" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Java/phoenix-policy-store/" (22610 40050 0 0) "request_has_attribute_policy.js" "register_request_format_policy.js" "readme.md" "rate_limit_policy.js" "path_policy.js" "password_unchanged_policy.js" "login_request_format_policy.js" "jwt_user_exist_policy.js" "jwt_policy.js" "jwt_did_not_expire_policy.js" "header_policy.js" "error.json" "crypto_currency_policy.js" "base.js" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/zhpooer/.tmuxinator/" (22596 14173 0 0) "work.yml" "main.yml" ".#work.yml" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Java/original-backend/" (22574 30834 0 0) "target/" "src/" "README.md" "pom.xml" "original-backend.iml" "database/" ".idea/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/zhpooer/.m2/" (22594 29912 0 0) "repository/" "1.xml" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Java/ce-spring-boot/" (22593 42361 0 0) "target/" "src/" "README.md" "pom.xml" "ce-springboot.iml" "ce-spring-boot.iml" ".travis.yml" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/zhpooer/.ssh/" (22593 45633 0 0) "known_hosts" "id_rsa_johnson.pub" "id_rsa_johnson" "id_rsa_caiezq.pub" "id_rsa_caiezq" "config" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/Shell/" (22592 14608 0 0) "learn_shell_chapter1.sh" "debug.sh" ".#.#learn_shell.sh" "../" "./")
+
+ ("/Users/zhpooer/Desktop/springboot/" (22558 40317 0 0) "src/" "pom.xml" "myproject.iml" ".idea/" "../" "./")
+
+ ("/Users/zhpooer/Desktop/springboot/src/main/java/" (22558 38257 0 0) "Example.java" "../" "./")
+
+ ("/Users/zhpooer/Desktop/springboot/src/main/" (22558 38243 0 0) "java/" "../" "./")
+
+ ("/Users/zhpooer/Desktop/springboot/src/" (22558 38241 0 0) "main/" "../" "./")
+
+ ("/Users/zhpooer/Desktop/" (22558 37331 0 0) "图像 2014-03-27-22-05.png" "trace-collector.tar.gz" "The.DevOps.2.0.Toolkit.pdf" "springboot/" "Spring-example.tar.gz" "Spock ##.md" "Packt.Web.Development.with.MongoDB.and.NodeJS.2nd.Edition.2015.10.pdf" "NodeJs MongoDB and AngularJS Web Development (1).pdf" "nodejs/" "Node.js, MongoDB, and AngularJS Web Development.epub" "New Code Review Grading Instructions.pdf" "Manning.Java.Testing.with.Spock.2016.3.pdf" "CodingProblems.pdf" ".localized" ".DS_Store" "%5BBuilding.a.DevOps.Culture%282013.4%29%5D.Mandi.Walls.文字版.pdf" "../" "./")
+
+ ("/Users/" (22514 65473 0 0) "zhpooer/" "Shared/" "Guest/" "caie/" ".localized" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/notes/source/images/" (22547 28349 0 0) "test.jpeg" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/notes/source/" (22547 28318 0 0) "tags/" "images/" "categories/" "about/" "_posts/" ".DS_Store" "../" "./")
+
+ ("/Users/zhpooer/Desktop/mydockerbuild/" (22544 44220 0 0) "Dockerfile" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/notes/" (22528 33635 0 0) "vendors/" "themes/" "tags/" "source/" "scaffolds/" "public/" "page/" "package.json" "node_modules/" "js/" "index.html" "images/" "db.json" "css/" "categories/" "archives/" "about/" "_config.yml" "2016/" ".gitignore" ".git/" ".DS_Store" ".deploy_git/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/notes/source/about/" (22457 53482 0 0) "index.md" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/personal-repository/spring-boot-doc/maven-test/src/main/java/" (22444 37318 0 0) "Example.java" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/personal-repository/spring-boot-doc/maven-test/src/main/" (22444 37297 0 0) "java/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/personal-repository/spring-boot-doc/maven-test/src/" (22444 37292 0 0) "main/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/personal-repository/spring-boot-doc/maven-test/" (22444 39131 0 0) "target/" "src/" "pom.xml" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/framework/" (22443 59478 0 0) "koper-1/" "guava/" "dropwizard/" ".idea/" ".DS_Store" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/personal-repository/spring-boot/src/main/java/" (22417 49025 0 0) "UserController.java" "MainClass.java" "Application.java" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/personal-repository/spring-boot/src/main/" (22417 30645 0 0) "resources/" "java/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/personal-repository/spring-boot/src/" (22417 30645 0 0) "test/" "main/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/personal-repository/spring-boot/" (22417 48224 0 0) "target/" "src/" "spring-boot.iml" "pom.xml" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/personal-repository/spring-boot-doc/" (22444 36900 0 0) "maven-test/" "app.groovy" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/personal-repository/" (22444 11926 0 0) "spring-boot-doc/" "spring-boot/" "scala/" "practice/" "design-pattern/" "dbunit-test/" "clojure/" "check-code-report/" "check-code/" ".idea/" ".DS_Store" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/zhaimi/documents/api接口文档/" (22398 30167 0 0) "隐藏五天没有开店的店铺说明.md" "获取支付方式标签.md" "获取支付宝payinfo接口.md" "紧急情况下短信动态调整.md" "第三方地址接口文档.md" "积分商城接口.md" "短信接口.md" "用户注册接口.md" "消息中心接口文档.md" "流量充值相关接口.md" "注册登陆接口说明.md" "未登录用户下单微调.md" "是否可接受预定.md" "新用户设置密码.md" "新版找回密码接口文档.md" "开店提醒接口.md" "分期乐对接接口.md" "下订单接口.md" "dump.rdb" "customer后端闪屏和活动弹出框接口.md" "customer后端api接口文档.md" "APP升级请求.md" "app3.0更改接口.md" "2016-07-05代销商品C端展示.md" "2016-07-01动态UI图.md" "2016-06-22商品详情页更新.md" "2016-06-02 派样信息在店铺列表的展示.md" "2016-04-25根据经纬度定位.md" "2016-03-24套餐后端文档.md" ".DS_Store" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/zhaimi/" (22395 18541 0 0) "zm-service/" "zm-framework/" "weicang-backend/" "util/" "try-git/" "trading/" "super-backend/" "promotion-backend/" "nami-backend/" "meituan/" "luffy-backend/" "hotsplit/" "git/" "documents/" "customer-backend/" "communication/" ".idea/" ".DS_Store" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/zhaimi/documents/" (22301 49282 0 0) "测试用例/" "打点规范/" "api接口文档/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/ce-build-project/" (22303 15096 0 0) "src/" "settings.gradle" "README.md" "out/" "gradlew.bat" "gradlew" "gradle/" "com.gradle.iml" "build.gradle" ".idea/" ".gradle/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/ce-build-project/.idea/" (22303 15343 0 0) "workspace.xml" "vcs.xml" "modules.xml" "misc.xml" "libraries/" "findbugs-idea.xml" "copyright/" "compiler.xml" ".name" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/documents/api接口文档/" (22301 49476 0 0) "隐藏五天没有开店的店铺说明.md" "获取支付方式标签.md" "获取支付宝payinfo接口.md" "紧急情况下短信动态调整.md" "第三方地址接口文档.md" "用户注册接口.md" "消息中心接口文档.md" "注册登陆接口说明.md" "未登录用户下单微调.md" "是否可接受预定.md" "新用户设置密码.md" "新版找回密码接口文档.md" "分期乐对接接口.md" "下订单接口.md" "customer后端闪屏和活动弹出框接口.md" "customer后端api接口文档.md" "app3.0更改接口.md" "2016-04-25根据经纬度定位.md" "2016-03-24套餐后端文档.md" ".DS_Store" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/documents/" (22301 49282 0 0) "测试用例/" "打点规范/" "api接口文档/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/customer-backend/" (22271 52542 0 0) "target/" "src/" "pom.xml" "customer.iml" "checkstyle.xml" ".idea/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/notes/public/" (22226 16797 0 0) "vendors/" "tags/" "js/" "index.html" "images/" "fancybox/" "css/" "archives/" "2016/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/document-declr/" (22083 65147 0 0) "documents/" ".DS_Store" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/document-declr/documents/" (22102 56545 0 0) "测试用例/" "打点规范/" "dump.rdb" "api接口文档/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/deploy-shell/" (22227 47442 0 0) "deploy_promotion_dev.sh" "deploy_hotsplit.sh" "deploy_customer.sh" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/notes/themes/next/" (22226 44879 0 0) "test/" "source/" "scripts/" "README.md" "README.en.md" "package.json" "layout/" "languages/" "gulpfile.coffee" "bower.json" "_config.yml" ".jshintrc" ".javascript_ignore" ".hound.yml" ".gitignore" ".git/" ".editorconfig" ".DS_Store" ".bowerrc" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/notes/themes/next/source/css/_variables/" (22226 43488 0 0) "Pisces.styl" "Muse.styl" "Mist.styl" "default.styl" "custom.styl" "base.styl" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/notes/themes/next/source/css/" (22212 17631 0 0) "main.styl" "_variables/" "_schemes/" "_mixins/" "_custom/" "_common/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/notes/source/tags/" (22226 24161 0 0) "index.md" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/notes/themes/next/source/" (22213 33074 0 0) "vendors/" "js/" "images/" "fonts/" "css/" ".DS_Store" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/notes/themes/" (22225 40428 0 0) "yilia/" "next/" "landscape/" ".DS_Store" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/notes/.git/" (22225 31490 0 0) "refs/" "ORIG_HEAD" "objects/" "logs/" "info/" "index" "hooks/" "HEAD" "FETCH_HEAD" "description" "config" "COMMIT_EDITMSG" "branches/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/promotion/" (22225 12328 0 0) "target/" "src/" "promotion.iml" "pom.xml" ".idea/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/zhpooer/.oh-my-zsh/plugins/git/" (22221 7210 0 0) "README.md" "git.plugin.zsh" "../" "./")
+
+ ("/Users/zhpooer/.oh-my-zsh/plugins/" (22210 45787 0 0) "zsh_reload/" "zsh-navigation-tools/" "zeus/" "z/" "yum/" "yii2/" "yii/" "xcode/" "wp-cli/" "web-search/" "wd/" "wakeonlan/" "vundle/" "virtualenvwrapper/" "virtualenv/" "vim-interaction/" "vi-mode/" "vault/" "vagrant/" "urltools/" "ubuntu/" "tugboat/" "torrent/" "tmuxinator/" "tmux-cssh/" "tmux/" "thor/" "themes/" "thefuck/" "textmate/" "textastic/" "terraform/" "terminitor/" "terminalapp/" "taskwarrior/" "systemd/" "systemadmin/" "symfony2/" "symfony/" "svn-fast-info/" "svn/" "suse/" "supervisor/" "sudo/" "sublime/" "stack/" "ssh-agent/" "sprunge/" "spring/" "singlechar/" "sfffe/" "scw/" "screen/" "scd/" "scala/" "sbt/" "safe-paste/" "rvm/" "ruby/" "rsync/" "repo/" "redis-cli/" "rebar/" "rbfu/" "rbenv/" "rand-quote/" "rake-fast/" "rake/" "rails/" "python/" "pylint/" "pyenv/" "profiles/" "powify/" "powder/" "pow/" "postgres/" "pod/" "pj/" "pip/" "phing/" "perl/" "per-directory-history/" "pep8/" "paver/" "pass/" "osx/" "nyan/" "nvm/" "npm/" "node/" "nmap/" "nanoc/" "n98-magerun/" "mysql-macports/" "mvn/" "mosh/" "mix-fast/" "mix/" "meteor/" "mercurial/" "marked2/" "man/" "macports/" "lol/" "lighthouse/" "lein/" "last-working-dir/" "laravel5/" "laravel4/" "laravel/" "knife_ssh/" "knife/" "kitchen/" "kate/" "jump/" "jsontools/" "jruby/" "jira/" "jhbuild/" "jake-node/" "iwhois/" "httpie/" "history-substring-search/" "history/" "heroku/" "gulp/" "grunt/" "grails/" "gradle/" "gpg-agent/" "golang/" "go/" "gnu-utils/" "glassfish/" "gitignore/" "github/" "gitfast/" "git-remote-branch/" "git-prompt/" "git-hubflow/" "git-flow-avh/" "git-flow/" "git-extras/" "git/" "gem/" "gas/" "frontend-search/" "forklift/" "fedora/" "fbterm/" "fastfile/" "fasd/" "fancy-ctrl-z/" "fabric/" "extract/" "encode64/" "emotty/" "emoji-clock/" "emoji/" "ember-cli/" "emacs/" "docker-compose/" "docker/" "dnf/" "django/" "dirpersist/" "dirhistory/" "dircycle/" "debian/" "cpanm/" "cp/" "copyfile/" "copydir/" "composer/" "compleat/" "common-aliases/" "command-not-found/" "colorize/" "colored-man-pages/" "colemak/" "coffee/" "codeclimate/" "cloudapp/" "chucknorris/" "chruby/" "celery/" "catimg/" "cask/" "capistrano/" "cakephp3/" "cake/" "cabal/" "bwana/" "bundler/" "brew-cask/" "brew/" "branch/" "bower/" "boot2docker/" "bgnotify/" "bbedit/" "battery/" "aws/" "autopep8/" "autojump/" "autoenv/" "archlinux/" "apache2-macports/" "ant/" "adb/" "../" "./")
+
+ ("/Users/zhpooer/.oh-my-zsh/" (22192 13482 0 0) "tools/" "themes/" "templates/" "README.markdown" "plugins/" "oh-my-zsh.sh" "MIT-LICENSE.txt" "log/" "lib/" "custom/" "cache/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/backend/src/main/java/com/zhaimi/customer/member/web/" (22212 10597 0 0) "UserController.java" "package-info.java" "MemberController.java" "LoginController.java" "IntegralController.java" "BalanceController.java" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/backend/src/main/java/com/zhaimi/customer/member/" (22209 42782 0 0) "web/" "service/" "model/" "entity/" "dao/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/backend/src/main/java/com/zhaimi/customer/" (22209 42782 0 0) "trading/" "product/" "payment/" "outing/" "member/" "marketing/" "filter/" "channel/" "base/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/backend/src/main/java/com/zhaimi/" (22209 42782 0 0) "customer/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/backend/src/main/java/com/" (22209 42782 0 0) "zhaimi/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/backend/src/main/java/" (22209 42782 0 0) "com/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/backend/src/main/" (22209 42782 0 0) "webapp/" "resources_test/" "resources_prod/" "resources/" "java/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/backend/src/" (22080 32893 0 0) "test/" "main/" "../" "./")
+
+ ("/Users/zhpooer/ce-workspace/workspace/backend/" (22209 42782 0 0) "target/" "src/" "pom.xml" "dump.rdb" "customer.iml" "checkstyle.xml" ".idea/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/usr/local/Cellar/maven/3.3.3/libexec/conf/" (21815 35917 0 0) "toolchains.xml" "settings.xml" "logging/" "../" "./")
+
+ ("/usr/local/Cellar/maven/3.3.3/libexec/" (22110 38684 0 0) "lib/" "conf/" "boot/" "bin/" "../" "./")
+
+ ("/usr/local/Cellar/maven/3.3.3/" (22110 38684 0 0) "README.txt" "NOTICE" "LICENSE" "libexec/" "INSTALL_RECEIPT.json" "bin/" "../" "./")
+
+ ("/usr/local/Cellar/maven/" (22110 38684 0 0) "3.3.3/" "../" "./")
+
+ ("/usr/local/Cellar/" (22110 38684 0 0) "zsh-completions/" "zsh/" "z/" "xz/" "wget/" "vim/" "tree/" "tmux/" "terminal-notifier/" "sqlite/" "scala/" "sbt/" "redis/" "readline/" "python/" "proxychains-ng/" "pkg-config/" "pcre/" "openssl/" "node/" "mysql/" "mongodb/" "maven/" "lua/" "libyaml/" "libtool/" "libksba/" "libgpg-error/" "libevent/" "leiningen/" "git-flow/" "ghc/" "gdbm/" "curl/" "cscope/" "cabal-install/" "brew-cask/" "automake/" "autoconf/" "aspell/" "activemq/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

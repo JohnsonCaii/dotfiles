@@ -1,0 +1,71 @@
+
+;; ----- smex-history -----
+(
+ prelude-swap-meta-and-super
+ server-start
+ eww-open-file
+ emmet-mode
+ text-mode
+ ensime
+ toggle-truncate-lines
+)
+
+;; ----- smex-data -----
+(
+ (list-packages . 6)
+ (org-open-at-point . 3)
+ (org-overview . 4)
+ (org-tags-view . 1)
+ (org-shifttab . 3)
+ (prelude-delete-file-and-buffer . 13)
+ (auto-complete-mode . 2)
+ (web-mode . 3)
+ (emmet-mode . 11)
+ (cider-jack-in . 23)
+ (pwd . 4)
+ (jade-mode . 2)
+ (yas-new-snippet . 4)
+ (yas/reload-all . 1)
+ (smartparens-mode . 3)
+ (prog-mode . 1)
+ (ido-everywhere . 3)
+ (coffee-mode . 3)
+ (jsx-mode . 9)
+ (projectile-grep . 4)
+ (rainbow-delimiters-mode . 5)
+ (rainbow-mode . 3)
+ (ac-cider-popup-doc . 1)
+ (cider-doc . 1)
+ (cider-javadoc . 1)
+ (linum-mode . 4)
+ (cider-refresh . 1)
+ (cider-restart . 8)
+ (cider-quit . 8)
+ (cider-test-run-test . 1)
+ (sbt-mode . 1)
+ (scala-mode . 1)
+ (ensime . 12)
+ (ensime-connect . 6)
+ (sbt-clear . 1)
+ (ensime-disconnect . 3)
+ (ensime-sbt . 1)
+ (ensime-disconnect-all . 1)
+ (ido-next-match . 1)
+ (ido-vertical-next-match . 2)
+ (todotxt . 1)
+ (web-mode-reload . 1)
+ (package-list-packages . 1)
+ (ido-vertical-mode . 2)
+ (package-list-packages-no-fetch . 2)
+ (edit-picture . 2)
+ (picture-mode . 1)
+ (magit-init . 1)
+ (ensime-shutdown . 3)
+ (magit-reset-hard . 1)
+ (cider-macroexpand-1 . 1)
+ (toggle-truncate-lines . 1)
+ (text-mode . 1)
+ (eww-open-file . 1)
+ (server-start . 2)
+ (prelude-swap-meta-and-super . 1)
+)
