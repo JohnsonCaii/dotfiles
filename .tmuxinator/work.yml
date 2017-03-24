@@ -40,15 +40,11 @@ windows:
   - docker:
       layout: even-horizontal
       panes:
-        - redis:
-            - docker stop redis
-            - docker start redis
-        - mysql:
-            - docker stop mysql
-            - docker start mysql
-        - rabbitmq:
-            - docker stop rabbitmq
-            - docker start rabbitmq
+        - middleware:
+            - docker stop redis mysql rabbitmq
+            - docker start redis mysql rabbitmq
+        -
+        -
   - emacs:
       - em
   - notes:
