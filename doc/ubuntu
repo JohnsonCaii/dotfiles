@@ -1,0 +1,2 @@
+apt install vim docker.io -y
+setxkbmap -option ctrl:swapcaps
