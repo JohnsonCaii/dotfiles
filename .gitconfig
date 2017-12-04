@@ -2,9 +2,11 @@
 	name = Johnson Cai
 	email = johnson.cai@btcc.com
 [push]
-	default = current
+    default = current
+[pull]
+    default = current
 [core]
-    editor = emacs
+    editor = vim
 [color "branch"]
 	current = blue
 	local = normal
@@ -23,3 +25,5 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[branch]
+	autosetupmerge = always
