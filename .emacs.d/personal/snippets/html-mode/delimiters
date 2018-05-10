@@ -1,6 +1,0 @@
-# -*- mode: snippet; require-final-newline: nil -*-
-# name: delimiters
-# key: %
-# binding: direct-keybinding
-# --
-<% $0 %>

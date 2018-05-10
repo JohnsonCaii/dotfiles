@@ -1,6 +1,0 @@
-# -*- mode: snippet; require-final-newline: nil -*-
-# name: charset
-# key: char
-# binding: direct-keybinding
-# --
-@charset "utf-8";
