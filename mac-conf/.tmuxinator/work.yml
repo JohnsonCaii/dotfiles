@@ -41,10 +41,6 @@ windows:
       layout: even-horizontal
       panes:
         - middleware:
-            - docker stop redis mysql rabbitmq
-            - docker start redis mysql rabbitmq
-        -
-        -
   - emacs:
       - em
   - notes:
@@ -52,6 +48,4 @@ windows:
       panes:
         -
         - note:
-           - cd ce-workspace/notes
-           - hexo server
         -
