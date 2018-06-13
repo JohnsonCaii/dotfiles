@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=~/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="gentoo"
 # ZSH_THEME='powerline'
@@ -29,8 +29,12 @@ alias bcl='brew cask list'
 alias run_flask='python manage.py runserver'
 alias pip_install='pip install -r requirements.txt'
 
+# git
+alias gp='git push origin $(git_current_branch)'
+alias gl='git pull origin $(git_current_branch)'
+
 # jwt
-alias generate_jwt='node /Users/zhpooer/ce-workspace/company/camelus/jwt_generate.js'
+alias generate_jwt="node $HOME/workspace/company/camelus/jwt_generate.js"
 
 bindkey -e
 

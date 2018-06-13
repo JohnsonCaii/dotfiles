@@ -27,6 +27,7 @@ readonly brew_apps=(
     tmux
     zsh
     zsh-syntax-highlighting
+    tig
 )
 
 readonly brew_cask_apps=(
