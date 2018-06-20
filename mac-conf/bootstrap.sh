@@ -44,9 +44,11 @@ install_brew_apps() {
         tree
         yarn
         watch
+        wget
     )
 
     readonly brew_cask_apps=(
+        postico
         datagrip
         webstorm
         pycharm
@@ -93,10 +95,7 @@ setup_spacemacs() {
 }
 
 setup_vim() {
-    info 'install vim!'
-    curl https://j.mp/spf13-vim3 -L > $HOME/spf13-vim.sh
-    sh $HOME/spf13-vim.sh
-    rm $HOME/spf13-vim.sh
+    ln -s $HOME/dotfiles/mac-conf/.vimrc $HOME/.vimrc
 }
 
 setup_gitconfig () {
