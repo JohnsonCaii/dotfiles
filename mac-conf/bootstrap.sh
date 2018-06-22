@@ -48,6 +48,7 @@ install_brew_apps() {
     )
 
     readonly brew_cask_apps=(
+        charles
         postico
         datagrip
         webstorm

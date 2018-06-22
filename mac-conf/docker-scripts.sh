@@ -20,6 +20,7 @@ run_rabbitmq() {
            -v ~/.docker/rabbitmq/data:/var/lib/rabbitmq \
            -v ~/.docker/rabbitmq/conf:/etc/rabbitmq \
            rabbitmq:management
+    docker exec rabbitmq rabbitmq-plugins enable rabbitmq_management
 }
 
 run_redis() {
@@ -35,18 +36,18 @@ run_postgres() {
 
 
 case $1 in
-	  mysql)
-		    echo "Run mysql"
+    mysql)
+	    echo "Run mysql"
         run_mysql
-		    ;;
-	  redis)
-		    echo "Run redis"
-		    run_redis
-		    ;;
-	  rabbitmq)
-		    echo "Run rabbitmq"
+	    ;;
+    redis)
+		echo "Run redis"
+        run_redis
+	    ;;
+	rabbitmq)
+	    echo "Run rabbitmq"
         run_rabbitmq
-		    ;;
+	    ;;
     postgres)
         echo "Run postgres"
         run_postgres
