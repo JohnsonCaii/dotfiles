@@ -37,17 +37,17 @@ run_postgres() {
 
 case $1 in
     mysql)
-	    echo "Run mysql"
+        echo "Run mysql"
         run_mysql
-	    ;;
+	;;
     redis)
-		echo "Run redis"
+        echo "Run redis"
         run_redis
-	    ;;
-	rabbitmq)
-	    echo "Run rabbitmq"
+	;;
+    rabbitmq)
+        echo "Run rabbitmq"
         run_rabbitmq
-	    ;;
+	;;
     postgres)
         echo "Run postgres"
         run_postgres
