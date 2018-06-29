@@ -12,6 +12,7 @@ install_brew() {
 install_brew_apps() {
     info 'install brew apps!'
     readonly brew_apps=(
+        yarn
         autoconf
         automake
         cmake
@@ -48,6 +49,7 @@ install_brew_apps() {
     )
 
     readonly brew_cask_apps=(
+        iina
         charles
         postico
         datagrip

@@ -22,7 +22,7 @@ alias bi='brew install'
 alias bl='brew list'
 
 alias bcs='brew cask search'
-alias bsi='brew cask install'
+alias bci='brew cask install'
 alias bcl='brew cask list'
 
 # python
@@ -45,3 +45,7 @@ export PATH="$(brew --prefix openvpn)/sbin:/usr/local/sbin:$HOME/.yarn/bin:$HOME
 # pyenv
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+
+export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087;
+export HOMEBREW_NO_AUTO_UPDATE=1
+
