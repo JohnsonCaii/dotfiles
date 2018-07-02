@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start rippled, Passthrough other arguments
+exec /opt/ripple/bin/rippled --net --conf /etc/ripple/rippled.cfg "$@"
