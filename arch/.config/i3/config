@@ -60,7 +60,7 @@ bindsym $mod+m fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
+bindsym $mod+shift+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
@@ -76,15 +76,15 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 set $workspace1 "1:Web "
-set $workspace2 "2:Terminal "
-set $workspace3 "3:File Manager "
-set $workspace4 "4:Music "
-set $workspace5 "5:Video "
-set $workspace6 "6:Game "
-set $workspace7 "7:Email "
-set $workspace8 "8:Work "
-set $workspace9 "9:Misc "
-set $workspace10 "10:Spotify "
+set $workspace2 "2:Pycharm "
+set $workspace3 "3:Intellij Idea "
+set $workspace4 "4:Tools "
+set $workspace5 "5:Terminal "
+set $workspace6 "6:File Manager "
+set $workspace7 "7:Video "
+set $workspace8 "8:Game "
+set $workspace9 "9:Email "
+set $workspace10 "10:Misc "
 
 # switch to workspace
 bindsym $mod+1 workspace $workspace1
@@ -115,9 +115,19 @@ assign [class="Chromium"] $workspace1
 assign [class="Google-chrome"] $workspace1
 assign [class="Firefox"] $workspace1
 assign [class="qutebrowser"] $workspace1
+
+assign [class="jetbrains-pycharm"] $workspace2
+
+assign [class="jetbrains-idea"] $workspace3
+
+assign [class="jetbrains-datagrip"] $workspace4
+assign [class="Postman"] $workspace4
+# assign [class="URxvt"] $workspace5
+
+
 assign [class="Nautilus"] $workspace3
 assign [class="Pcmanfm"] $workspace3
-assign [class="Thunar"] $workspace3
+assign [class="Thunar"] $workspace6
 assign [class="Thunderbird"] $workspace7
 assign [class="Spotify"] $workspace10
 for_window [class="Spotify"] move to workspace $workspace10 
@@ -148,7 +158,7 @@ mode "resize" {
         bindsym k resize shrink height 10 px or 10 ppt
         bindsym l resize grow width 10 px or 10 ppt
 
-        bindsym Escape mode "default"
+        bindsym q mode "default"
 }
 
 bindsym $mod+r mode "resize"
@@ -210,7 +220,8 @@ bindsym Mod1+Shift+Print exec scrot -s $HOME/Bilder/Screenshots/`date +%Y-%m-%d_
 bar {
 	font xft:Droid Sans Mono 10, FontAwesome 10
         position top
-	status_command bumblebee-status -m load redshift cpu disk:root memory datetime traffic -p root.path=/ time.format="%H:%M CW %V" date.format="%A, %d %b %Y" -t solarized-powerline
+	status_command bumblebee-status -m load cpu disk:root memory datetime traffic -p root.path=/ time.format="%H:%M CW %V" date.format="%A, %d %b %Y" -t solarized-powerline
+	# status_command i3status
 	#tray_output secondary
 	#output HDMI-A-0
   	colors {
@@ -243,6 +254,7 @@ gaps outer 2
 # shut down, restart and locking features
 bindsym $mod+Delete exec rofi-computer
 bindsym $mod+shift+q exec betterlockscreen -l
+bindsym $mod+ctrl+g exec chromium
 
 # shut down, restart and locking features (requires i3exit script in /usr/bin)
 #bindsym $mod+Delete mode "$mode_system"
@@ -276,5 +288,16 @@ exec --no-startup-id dunst
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id mpd
 exec --no-startup-id fcitx
-# exec --no-startup-id redshift
+exec --no-startup-id redshift
+exec --no-startup-id ss-local -c /etc/shadowsocks/shadowsocks-libev.json
+# exec --no-startup-id intellij-idea-ultimate-edition
+# exec --no-startup-id datagrip
+exec --no-startup-id postman
+exec --no-startup-id chromium
+# exec --no-startup-id pycharm
+
+
+
+
+
 
