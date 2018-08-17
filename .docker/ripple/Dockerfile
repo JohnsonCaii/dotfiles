@@ -16,6 +16,6 @@ RUN apt-get update -y && \
     rm -rf /var/lib/apt/lists/* && \
     chmod +x /entrypoint.sh
 
-EXPOSE 80 443 5005 6006 51235
+EXPOSE 80 443 5005 5006 6006 51235
 
 ENTRYPOINT [ "/entrypoint.sh" ]

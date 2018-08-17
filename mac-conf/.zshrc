@@ -49,3 +49,5 @@ eval "$(pyenv virtualenv-init -)"
 export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087;
 export HOMEBREW_NO_AUTO_UPDATE=1
 
+export PATH="/usr/local/opt/gettext/bin:/usr/local/opt/llvm@4/bin:$PATH"
+alias cleos='docker exec -it eosio /opt/eosio/bin/cleos -u http://0.0.0.0:8888 --wallet-url http://0.0.0.0:8888'
