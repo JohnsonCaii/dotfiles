@@ -290,11 +290,11 @@ exec --no-startup-id mpd
 exec --no-startup-id fcitx
 exec --no-startup-id redshift
 exec --no-startup-id ss-local -c /etc/shadowsocks/shadowsocks-libev.json
-# exec --no-startup-id intellij-idea-ultimate-edition
-# exec --no-startup-id datagrip
+exec --no-startup-id intellij-idea-ultimate-edition
+exec --no-startup-id datagrip
 exec --no-startup-id postman
 exec --no-startup-id chromium
-# exec --no-startup-id pycharm
+exec --no-startup-id pycharm
 
 
 
