@@ -1,14 +1,14 @@
 #!/bin/bash
 
 run_mysql() {
-    docker run -m 128m --cpus='1' -d -p 3306:3306 \
+    docker run -m 512m --cpus='1' -d -p 3306:3306 \
            -v ~/.docker/mysql/data:/var/lib/mysql \
            -v ~/.docker/mysql/conf:/etc/mysql/conf.d \
            --restart=always --name mysql -e MYSQL_ROOT_PASSWORD=root mysql
 }
 
 run_rabbitmq() {
-    docker run -m 128m --cpus='1' -d --name rabbitmq \
+    docker run -m 512m --cpus='1' -d --name rabbitmq \
            --publish 5671:5671 \
            --publish 5672:5672 \
            --publish 4369:4369 \
@@ -24,13 +24,13 @@ run_rabbitmq() {
 }
 
 run_redis() {
-    docker run -m 128m --cpus='1' -d -p 6379:6379 \
+    docker run -m 512m --cpus='1' -d -p 6379:6379 \
            -v ~/.docker/redis/data:/data \
            --restart=always --name redis redis
 }
 
 run_postgres() {
-    docker run -m 128m --cpus='1' --name postgres -p 5432:5432 \
+    docker run -m 512m --cpus='1' --name postgres -p 5432:5432 \
            -e POSTGRES_PASSWORD=root --restart=always -d postgres
 }
 
