@@ -4,17 +4,24 @@ export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="gentoo"
 # ZSH_THEME='powerline'
 
-plugins=(git python brew node npm tmux tmuxinator vi-mode colorize autojump tmuxinator)
+DISABLE_UPDATE_PROMPT=true
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+plugins=(git pyenv python docker brew node npm tmux tmuxinator vi-mode colorize autojump tmuxinator redis-cli spring yarn)
+
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/llvm/bin:/usr/local/opt/gettext/bin:/usr/local/opt/llvm@4/bin:$(brew --prefix openvpn)/sbin:/usr/local/sbin:$HOME/.yarn/bin:$HOME/.pyenv/bin:$PATH"
+export HOMEBREW_NO_AUTO_UPDATE=1
+export HOMEBREW_GITHUB_API_TOKEN='543616c4d9da3bc67b0a9e60f18591855020d539'
+export PYENV_VIRTUALENV_DISABLE_PROMPT=1
 
 source $ZSH/oh-my-zsh.sh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-export EDITOR='emacs'
+export EDITOR='vim'
 
 alias grep='grep --color=auto'
 alias scala='scala -Dscala.color=True'
+
+alias speed="speedtest-cli"
 
 # brew
 alias bs='brew search'
@@ -32,22 +39,19 @@ alias pip_install='pip install -r requirements.txt'
 # git
 alias gp='git push origin $(git_current_branch)'
 alias gl='git pull origin $(git_current_branch)'
+alias gsu='git submodule update'
+
+# docker
+alias dp='docker ps'
+alias dlf='docker logs -f'
+alias ds='docker stats'
+alias dpa='docker ps -a'
+alias cleos='docker exec -it eosio /opt/eosio/bin/cleos -u http://0.0.0.0:8888 --wallet-url http://0.0.0.0:8888'
 
 # jwt
 alias generate_jwt="node $HOME/workspace/company/camelus/jwt_generate.js"
 
 bindkey -e
 
-export PATH="$(brew --prefix openvpn)/sbin:/usr/local/sbin:$HOME/.yarn/bin:$HOME/.pyenv/bin:$PATH"
-
-[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
-
-# pyenv
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
-
-export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087;
-export HOMEBREW_NO_AUTO_UPDATE=1
-
-export PATH="/usr/local/opt/gettext/bin:/usr/local/opt/llvm@4/bin:$PATH"
-alias cleos='docker exec -it eosio /opt/eosio/bin/cleos -u http://0.0.0.0:8888 --wallet-url http://0.0.0.0:8888'
+export http_proxy=http://127.0.0.1:1087
+export https_proxy=http://127.0.0.1:1087

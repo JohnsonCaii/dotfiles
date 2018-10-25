@@ -8,7 +8,7 @@ run_mysql() {
 }
 
 run_rabbitmq() {
-    docker run -m 512m --cpus='1' -d --name rabbitmq \
+    docker run -m 1024m --cpus='1' -d --name rabbitmq \
            --publish 5671:5671 \
            --publish 5672:5672 \
            --publish 4369:4369 \
@@ -17,8 +17,6 @@ run_rabbitmq() {
            --publish 15672:15672 \
            --hostname rabbit-server \
            --restart=always \
-           -v ~/.docker/rabbitmq/data:/var/lib/rabbitmq \
-           -v ~/.docker/rabbitmq/conf:/etc/rabbitmq \
            rabbitmq:3.6.1-management
     docker exec rabbitmq rabbitmq-plugins enable rabbitmq_management
 }
