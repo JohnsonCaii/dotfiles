@@ -2,15 +2,14 @@
 export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="gentoo"
-# ZSH_THEME='powerline'
 
 DISABLE_UPDATE_PROMPT=true
 
 plugins=(git pyenv python docker brew node npm tmux tmuxinator vi-mode colorize autojump tmuxinator redis-cli spring yarn)
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/llvm/bin:/usr/local/opt/gettext/bin:/usr/local/opt/llvm@4/bin:$(brew --prefix openvpn)/sbin:/usr/local/sbin:$HOME/.yarn/bin:$HOME/.pyenv/bin:$PATH"
+export PATH="/usr/local/opt/go/libexec/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/llvm/bin:/usr/local/opt/gettext/bin:/usr/local/opt/llvm@4/bin:$(brew --prefix openvpn)/sbin:/usr/local/sbin:$HOME/.yarn/bin:$HOME/.pyenv/bin:$PATH"
 export HOMEBREW_NO_AUTO_UPDATE=1
-export HOMEBREW_GITHUB_API_TOKEN='543616c4d9da3bc67b0a9e60f18591855020d539'
+export HOMEBREW_GITHUB_API_TOKEN='0003110a442cf9f6fe1bf51e6cc6aac13996ce37'
 export PYENV_VIRTUALENV_DISABLE_PROMPT=1
 
 source $ZSH/oh-my-zsh.sh
@@ -27,10 +26,13 @@ alias speed="speedtest-cli"
 alias bs='brew search'
 alias bi='brew install'
 alias bl='brew list'
+alias bu='brew update'
 
 alias bcs='brew cask search'
 alias bci='brew cask install'
 alias bcl='brew cask list'
+
+# alias git='LANG=en_US git'
 
 # python
 alias run_flask='python manage.py runserver'
@@ -55,3 +57,5 @@ bindkey -e
 
 export http_proxy=http://127.0.0.1:1087
 export https_proxy=http://127.0.0.1:1087
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
