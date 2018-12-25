@@ -32,7 +32,7 @@ alias bcs='brew cask search'
 alias bci='brew cask install'
 alias bcl='brew cask list'
 
-# alias git='LANG=en_US git'
+alias git='LANG=en_US git'
 
 # python
 alias run_flask='python manage.py runserver'

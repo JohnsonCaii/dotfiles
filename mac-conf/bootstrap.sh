@@ -15,27 +15,17 @@ install_brew_apps() {
         yarn
         autoconf
         automake
-        cmake
-        gdbm
         git
         gradle
         htop
-        icu4c
-        libevent
-        libtool
         maven
-        ninja
         nload
         node
-        openssl
-        pkg-config
-        protobuf
         pyenv
         pyenv-virtualenv
         python@2
         readline
         reattach-to-user-namespace
-        sqlite
         tmux
         zsh
         zsh-syntax-highlighting
@@ -43,12 +33,13 @@ install_brew_apps() {
         autojump
         nvm
         tree
-        yarn
         watch
         wget
     )
 
     readonly brew_cask_apps=(
+        thunder
+        shadowsocksx-ng
         iina
         charles
         postico
@@ -79,15 +70,21 @@ install_brew_apps() {
         youdaodict
     )
 
+    for i in ${brew_cask_apps[@]}; do
+        echo ""
+        echo "<brew cask> => installing $i"
+        echo ""
+        brew cask install $i
+    done
+
     for i in ${brew_apps[@]}; do
+        echo ""
         echo "<brew> => installing $i"
+        echo ""
         brew install $i
     done
 
-    for i in ${brew_cask_apps[@]}; do
-        echo "<brew cask> => installing $i"
-        brew cask install $i
-    done
+
 }
 
 setup_spacemacs() {
