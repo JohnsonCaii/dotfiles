@@ -38,6 +38,14 @@ install_brew_apps() {
     )
 
     readonly brew_cask_apps=(
+        macdown
+        1password
+        sogouinput
+        wechat
+        baidunetdisk
+        microsoft-office
+        the-unarchiver
+        betterzip
         thunder
         shadowsocksx-ng
         iina
@@ -50,7 +58,6 @@ install_brew_apps() {
         mounty
         firefox
         gas-mask
-        1password
         alfred
         aliwangwang
         amethyst
@@ -73,14 +80,12 @@ install_brew_apps() {
     for i in ${brew_cask_apps[@]}; do
         echo ""
         echo "<brew cask> => installing $i"
-        echo ""
         brew cask install $i
     done
 
     for i in ${brew_apps[@]}; do
         echo ""
         echo "<brew> => installing $i"
-        echo ""
         brew install $i
     done
 

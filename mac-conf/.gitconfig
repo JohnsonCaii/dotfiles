@@ -21,6 +21,6 @@
 [rebase]
     autoStash = true
 [http]
-	proxy = socks5://127.0.0.1:1087
+	proxy = socks5://127.0.0.1:1086
 [https]
-	proxy = socks5://127.0.0.1:1087
+	proxy = socks5://127.0.0.1:1086
