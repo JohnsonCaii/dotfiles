@@ -32,8 +32,6 @@ alias bcs='brew cask search'
 alias bci='brew cask install'
 alias bcl='brew cask list'
 
-alias git='LANG=en_US git'
-
 # python
 alias run_flask='python manage.py runserver'
 alias pip_install='pip install -r requirements.txt'
@@ -42,6 +40,8 @@ alias pip_install='pip install -r requirements.txt'
 alias gp='git push origin $(git_current_branch)'
 alias gl='git pull origin $(git_current_branch)'
 alias gsu='git submodule update'
+
+alias myip='curl myip.ipip.net'
 
 # docker
 alias dp='docker ps'
@@ -55,7 +55,7 @@ alias generate_jwt="node $HOME/workspace/company/camelus/jwt_generate.js"
 
 bindkey -e
 
-export http_proxy=http://127.0.0.1:1087
-export https_proxy=http://127.0.0.1:1087
+export http_proxy=socks5://127.0.0.1:1086
+export https_proxy=socks5://127.0.0.1:1086
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

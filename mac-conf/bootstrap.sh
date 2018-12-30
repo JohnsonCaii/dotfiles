@@ -38,6 +38,7 @@ install_brew_apps() {
     )
 
     readonly brew_cask_apps=(
+        youtube-dl
         macdown
         1password
         sogouinput
@@ -125,7 +126,8 @@ setup_zsh() {
 install_brew
 install_brew_apps
 setup_spacemacs
-setup_zsh
 setup_tmux
 setup_gitconfig
 setup_vim
+setup_zsh
+
