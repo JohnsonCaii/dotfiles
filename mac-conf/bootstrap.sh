@@ -49,7 +49,6 @@ install_brew_apps() {
         betterzip
         thunder
         shadowsocksx-ng
-        iina
         charles
         postico
         datagrip

@@ -6,9 +6,10 @@ DISABLE_UPDATE_PROMPT=true
 
 plugins=(git pyenv python docker brew tmux tmuxinator colorize autojump redis-cli supervisor dotenv)
 
-export PATH="/usr/local/opt/go/libexec/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/llvm/bin:/usr/local/opt/gettext/bin:/usr/local/opt/llvm@4/bin:$(brew --prefix openvpn)/sbin:/usr/local/sbin:$HOME/.yarn/bin:$HOME/.pyenv/bin:$PATH:$GOPATH/bin"
+export PATH="/$(pyenv root)/shims:/usr/local/opt/go/libexec/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/llvm/bin:/usr/local/opt/gettext/bin:/usr/local/opt/llvm@4/bin:$(brew --prefix openvpn)/sbin:/usr/local/sbin:$HOME/.yarn/bin:$HOME/.pyenv/bin:$PATH:$GOPATH/bin"
 export HOMEBREW_NO_AUTO_UPDATE=1
 export HOMEBREW_GITHUB_API_TOKEN='0003110a442cf9f6fe1bf51e6cc6aac13996ce37'
+export PYENV_ROOT=/usr/local/var/pyenv
 export PYENV_VIRTUALENV_DISABLE_PROMPT=1
 export EDITOR='vim'
 
@@ -21,6 +22,10 @@ alias grep='grep --color=auto'
 alias scala='scala -Dscala.color=True'
 
 alias speed="speedtest-cli"
+
+alias cat="bat"
+
+alias preview="fzf --preview 'bat --color \"always\" {}'"
 
 # brew
 alias bs='brew search'
@@ -50,12 +55,6 @@ alias dlf='docker logs -f --tail 10'
 alias ds='docker stats'
 alias dpa='docker ps -a'
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-export GOPATH="${HOME}/.go"
-export GOROOT="$(brew --prefix golang)/libexec"
-export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
-
 export ANSIBLE_INVENTORY="${HOME}/.ansible/hosts"
 
 myip () {
@@ -78,4 +77,10 @@ enable-proxy () {
 
 enable-proxy
 
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+export GOPATH="${HOME}/.go"
+export GOROOT="$(brew --prefix golang)/libexec"
+export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
+
+# archey
