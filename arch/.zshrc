@@ -1,7 +1,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH=/home/johnson/.oh-my-zsh
 
-ZSH_THEME="gentoo"
+ZSH_THEME="agnoster"
 
 plugins=(
   git autojump dotenv nmap history tmux
@@ -20,8 +20,17 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
 source /usr/share/nvm/init-nvm.sh
+source /usr/share/fzf/key-bindings.zsh
+source /usr/share/fzf/completion.zsh
 
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
+
+alias dp='docker ps'
+alias dpa='docker ps -a'
+alias ds='docker stats'
+
+export GOPATH="$HOME/.go"
+
 
 neofetch
