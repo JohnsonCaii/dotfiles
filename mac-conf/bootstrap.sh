@@ -15,27 +15,17 @@ install_brew_apps() {
         yarn
         autoconf
         automake
-        cmake
-        gdbm
         git
         gradle
         htop
-        icu4c
-        libevent
-        libtool
         maven
-        ninja
         nload
         node
-        openssl
-        pkg-config
-        protobuf
         pyenv
         pyenv-virtualenv
         python@2
         readline
         reattach-to-user-namespace
-        sqlite
         tmux
         zsh
         zsh-syntax-highlighting
@@ -43,13 +33,22 @@ install_brew_apps() {
         autojump
         nvm
         tree
-        yarn
         watch
         wget
     )
 
     readonly brew_cask_apps=(
-        iina
+        youtube-dl
+        macdown
+        1password
+        sogouinput
+        wechat
+        baidunetdisk
+        microsoft-office
+        the-unarchiver
+        betterzip
+        thunder
+        shadowsocksx-ng
         charles
         postico
         datagrip
@@ -59,7 +58,6 @@ install_brew_apps() {
         mounty
         firefox
         gas-mask
-        1password
         alfred
         aliwangwang
         amethyst
@@ -79,15 +77,19 @@ install_brew_apps() {
         youdaodict
     )
 
+    for i in ${brew_cask_apps[@]}; do
+        echo ""
+        echo "<brew cask> => installing $i"
+        brew cask install $i
+    done
+
     for i in ${brew_apps[@]}; do
+        echo ""
         echo "<brew> => installing $i"
         brew install $i
     done
 
-    for i in ${brew_cask_apps[@]}; do
-        echo "<brew cask> => installing $i"
-        brew cask install $i
-    done
+
 }
 
 setup_spacemacs() {
@@ -123,7 +125,8 @@ setup_zsh() {
 install_brew
 install_brew_apps
 setup_spacemacs
-setup_zsh
 setup_tmux
 setup_gitconfig
 setup_vim
+setup_zsh
+
