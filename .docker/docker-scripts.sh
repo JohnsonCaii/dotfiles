@@ -4,7 +4,7 @@ run_mysql() {
     docker run -m 512m --cpus='1' -d -p 3306:3306 \
            -v ~/.docker/mysql/data:/var/lib/mysql \
            -v ~/.docker/mysql/conf:/etc/mysql/conf.d \
-           --restart=always --name mysql -e MYSQL_ROOT_PASSWORD=root mysql
+           --restart=always --name mysql -e MYSQL_ROOT_PASSWORD=root mysql:5.6
 }
 
 run_rabbitmq() {
