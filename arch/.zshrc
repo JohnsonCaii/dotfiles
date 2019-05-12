@@ -15,6 +15,7 @@ alias Ei3="vim $HOME/.config/i3/config"
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
 source /etc/profile.d/autojump.zsh
+source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
@@ -51,4 +52,6 @@ enable-proxy () {
 
 enable-proxy
 
-neofetch
+# neofetch
+
+
