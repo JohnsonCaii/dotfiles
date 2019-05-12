@@ -1,4 +1,3 @@
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH=/home/johnson/.oh-my-zsh
 
 ZSH_THEME="agnoster"
@@ -32,5 +31,24 @@ alias ds='docker stats'
 
 export GOPATH="$HOME/.go"
 
+myip () {
+    curl myip.ipip.net
+}
+
+iplocation () {
+    curl --noproxy "*" cip.cc/$1
+}
+
+disable-proxy () {
+    unset http_proxy
+    unset https_proxy
+}
+
+enable-proxy () {
+    export http_proxy=http://127.0.0.1:1087
+    export https_proxy=http://127.0.0.1:1087
+}
+
+enable-proxy
 
 neofetch

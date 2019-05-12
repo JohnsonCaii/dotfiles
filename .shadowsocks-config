@@ -1,0 +1,9 @@
+{
+    "server": "",
+    "server_port": ,
+    "local_port": 1086,
+    "password": "",
+    "timeout": 60,
+    "method": ""
+}
+
