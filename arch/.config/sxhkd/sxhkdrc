@@ -1,0 +1,15 @@
+# Basic bind
+super + a
+      import /tmp/screenshot.png && xclip -selection clipoard -t 'image/png' /tmp/screenshot.png
+
+alt + ctrl + q
+      betterlockscreen -l dim & xset dpms force off
+
+alt + ctrl + {g, l, p, a, t}
+      {google-chrome-stable, goland, pycharm, datagrip, termite}
+
+alt + p
+      i3-dmenu-desktop --dmenu='rofi -dmenu -i -lines 3 -eh 1 -width 35 -padding 10 -opacity "85" -font "Droid Sans 16"'
+
+XF86Audio{Raise,Lower}Volume
+      amixer -q set Master 5%{+,-}
