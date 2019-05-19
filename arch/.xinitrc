@@ -21,7 +21,7 @@ if [ -f $HOME/.Xmodmap ]; then
     /usr/bin/xmodmap $HOME/.Xmodmap
 fi
 
-xinput set-prop 8 154 2.400000, 0.000000, 0.000000, 0.000000, 2.400000, 0.000000, 0.000000, 0.000000, 1.000000
+# xinput set-prop 8 154 2.400000, 0.000000, 0.000000, 0.000000, 2.400000, 0.000000, 0.000000, 0.000000, 1.000000
 
 if [ -f $HOME/.Xresources ]; then
     xrdb $HOME/.Xresources
@@ -38,7 +38,7 @@ syndaemon -t -k -i 2 -d &
 # exec gnome-session-cinnamon
 # exec gnome-session-xmonad
 # exec ck-launch-session xmonad
-exec xmonad
+exec i3
 # exec startkde
 # exec startxfce4
 # ...or the Window Manager of your choice

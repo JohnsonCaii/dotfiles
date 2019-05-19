@@ -1,0 +1,47 @@
+[options]
+
+allow_bold = true
+audible_bell = true
+browser = xdg-open
+clickable_url = true
+cursor_blink = system
+cursor_shape = block
+dynamic_title = true
+filter_unmatched_urls = true
+font = monospace 10
+geometry = 480x280
+icon_name = terminal
+modify_other_keys = false
+mouse_autohide = false
+scroll_on_output = false
+scroll_on_keystroke = true
+scrollback_lines = 15000
+size_hints = false
+search_wrap = true
+urgent_on_bell = true
+highlight = #30343e
+
+[colors]
+
+background = rgba(0, 43, 54, 0.8)
+foreground=#839496
+cursor=#93a1a1
+
+color0=#073642
+color1=#dc322f
+color2=#859900
+color3=#b58900
+color4=#268bd2
+color5=#d33682
+color6=#2aa198
+color7=#eee8d5
+color9=#cb4b16
+color8=#228949
+color10=#9d320f
+color11=#657b83
+color12=#2aa198
+color13=#6c71c4
+color14=#93a1a1
+color15=#fdf6e3
+
+# vim: ft=dosini cms=#%s

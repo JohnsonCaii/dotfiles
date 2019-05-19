@@ -11,11 +11,11 @@ export LANG=en_US.UTF-8
 
 export EDITOR='vim'
 
-alias Ei3="vim $HOME/.config/i3/config"
-
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
 source /etc/profile.d/autojump.zsh
 source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
@@ -30,7 +30,8 @@ alias dp='docker ps'
 alias dpa='docker ps -a'
 alias ds='docker stats'
 
-export GOPATH="$HOME/.go"
+
+export GOPATH="$HOME/go"
 
 myip () {
     curl myip.ipip.net
