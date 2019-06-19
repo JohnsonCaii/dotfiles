@@ -1,3 +1,0 @@
-#!/bin/bash
-
-exec /opt/ripple/bin/rippled --net -v --conf /etc/ripple/rippled.cfg

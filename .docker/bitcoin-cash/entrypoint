@@ -1,3 +1,0 @@
-#!/bin/bash
-
-exec /usr/local/bitcoin-cash/bin/bitcoind -conf=/etc/bitcoin-cash/bitcoin-cash.conf -datadir=/data
