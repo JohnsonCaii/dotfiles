@@ -1,4 +1,4 @@
-export ZSH=/home/johnson/.oh-my-zsh
+export ZSH=/home/user/.oh-my-zsh
 
 ZSH_THEME="agnoster"
 
@@ -43,8 +43,8 @@ disable-proxy () {
 }
 
 enable-proxy () {
-    export http_proxy=http://192.168.2.162:8889
-    export https_proxy=http://192.168.2.162:8889
+    export http_proxy=http://192.168.2.100:8889
+    export https_proxy=http://192.168.2.100:8889
 }
 
 
