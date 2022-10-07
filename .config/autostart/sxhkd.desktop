@@ -1,0 +1,24 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Encoding=UTF-8
+Exec=sxhkd
+GenericName[en_US]=
+GenericName=
+Hidden=false
+Icon=
+MimeType=
+Name[en_US]=sxhkd
+Name=sxhkd
+OnlyShowIn=XFCE;
+Path=
+RunHook=0
+StartupNotify=false
+Terminal=true
+TerminalOptions=
+Type=Application
+Version=0.9.4
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
